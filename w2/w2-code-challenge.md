@@ -32,7 +32,7 @@ Replace the body of your `index.html` with the following code.
 ### ✅ Step 1 Checkpoint
 Once done, review your HTML carefully:
 - Confirm the IDs match **exactly**
-- Save your file and refresh the browser to ensure no errors appear
+- Refresh the browser to ensure no errors appear
 
 Before moving on to the next step, commit your changes using this message:
 
