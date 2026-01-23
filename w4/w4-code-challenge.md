@@ -31,7 +31,6 @@ Create a new file named `price-calculator.js`. This module's job is to handle th
 ### Step 3: Refactor `app.js` (The Array & Spread)
 Open your `app.js`. We need to change how we handle the "Submit" event.
 
----
 **Requirements:**
 1.  **Import:** Import everything from your new calculator module. 
     * *Hint: Use the same style as Week 3:* `import * as priceCalculator from './price-calculator.js';`
