@@ -11,6 +11,7 @@ The store manager is happy with the form, but they have two new requests:
 ---
 ### Step 1: Setup
 Create a new folder in your public repo named `w4` copy the ending code from `w3`. Update the title to be `The Custom Order Form` 
+
 **Commit message:** `Step 1 Complete`
 
 ### Step 2: Create `price-calculator.js`
@@ -18,12 +19,13 @@ Create a new file named `price-calculator.js`. This module's job is to handle th
 
 **Requirements:**
 1.  **Constants:** Define a price for a shirt (e.g., `15`) and a price for gift wrap (e.g., `2`).
-    * Make sure to use **camelCase** our standard naming convention for variables,
+    * Make sure to use **camelCase** our standard naming convention for variables.
 2.  **Export a Function:** Create and export a function named `calculateTotal`.
     * **Input:** It should accept the `orderData` object (the one from your handler) as a parameter.
     * **Logic:** Calculate the total: `(Qty * Shirt Price) + (Gift Wrap Price if selected)`.
         * Keyword in this requirement `if`.
     * **Output:** Return an object containing the key `totalPrice` (e.g., `{ totalPrice: 47 }`).
+
 **Commit message:** `Step 2 Complete`
 
 ---
