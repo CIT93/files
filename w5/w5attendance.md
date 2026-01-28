@@ -4,8 +4,8 @@
 Your goal for this project is to build a web application that helps you make personal decisions. You'll create an app where you can input details about a decision important to your own life, see your current submission, and eventually manage a history of past decisions. This project will reinforce key web development patterns like modular JavaScript and storing data right in your browser. Since it's about your life, your app will be truly unique!
 
 ## Step 1: Files and Doc
-* Create a new folder inside your **private** repo named `my-apps`. This should be located at the root of your repo.
-* Inside `my-apps`, create another folder called `step1`. All files for this work will go directly into this `my-apps/step1` folder.
+* Create a new folder inside your **private** repo named `my-app`. This should be located at the root of your repo.
+* Inside `my-app`, create another folder called `step1`. All files for this work will go directly into this `my-app/step1` folder.
 * Inside `step1`, create a new `README.md` file. 
 * Use the following H1 for the first line: `# My Decision Making App`
 * Then, include the following sections using H2 `##`:
@@ -25,7 +25,7 @@ Your goal for this project is to build a web application that helps you make per
     - **Commit with message**: `files and doc started`
 
 ## Step 2: HTML
-* **Setup**: Copy the `index.html` file from your ending code for the Carbon Footprint (4.2) exercise and paste it into your `my-apps/step1` folder.
+* **Setup**: Copy the `index.html` file from your ending code for the Carbon Footprint (4.2) exercise and paste it into your `my-app/step1` folder.
 * **Customization**: All Carbon Footprint-specific content, text, and elements must be completely customized for your decision-making topic.
     - Update page headings, paragraph content, and the submit button text.
     - Update HTML attributes to match your new data: `id`, `name`, `value`, `for`, and `placeholder` text.
@@ -41,7 +41,7 @@ Your goal for this project is to build a web application that helps you make per
 
 
 ## Step 3: CSS
-* **Setup**: Copy the `style.css` file from your ending code for the Carbon Footprint (4.2) exercise and paste it into your `my-apps/step1` folder.
+* **Setup**: Copy the `style.css` file from your ending code for the Carbon Footprint (4.2) exercise and paste it into your `my-app/step1` folder.
 * Ensure your `index.html` is correctly linked to this new sheet: `<link rel="stylesheet" href="style.css" />`.
 * Apply your chosen colors strategically throughout your styling. You can copy the CSS from 4.2 as a base, but you must update the colors to match your selected palette.
     - Add basic global styles for the `body` (e.g., font-family, font-size, line-height, text color, and background-color).
