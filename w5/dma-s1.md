@@ -3,7 +3,7 @@
 The carbon footprint will be your guide to implement the following, make sure you do the steps in order of the instructions and commits.
 
 ### `app.js` Setup
-* **Create File**: In your `my-apps/step1` folder, create a new file named `app.js`.
+* **Create File**: In your `my-app/step1` folder, create a new file named `app.js`.
 * **Link File**: Update your `index.html` to include the `<script>` tag pointing to this file.
     * **Hint**: Do not forget the `defer` attribute so the HTML loads before the JS runs.
 * **Code & Test**: Write the following JavaScript, saving and testing in the browser console as you go:
@@ -35,7 +35,7 @@ Feeling the burn? If you have completed everything above, you may pause here.
 ### `form-handler.js` Setup
 * **Convert to Module**: In your `index.html`, locate your script tag for `app.js`.
     * Add `type="module"` to the opening tag.
-* **Create File**: In your `my-apps/step1` folder, create a new file named `form-handler.js`.
+* **Create File**: In your `my-app/step1` folder, create a new file named `form-handler.js`.
 * **Code & Test**: Write the following JavaScript logic. Since this is a module, remember to `export` the functions you need to use in other files.
     - **DOM References**: At the top of the file, create references to your Input fields (so you can read their values) and your Form (so you can reset it).
     - **`getFormInputs` Function**:
@@ -58,7 +58,7 @@ Feeling the burn? If you have completed everything above, you may pause here.
 ## `decision.js`
 In the Carbon Footprint app, we had `calculator.js`—a specific file dedicated to doing the math. For your personal app, you need a similar "brain," but instead of calculating carbon, it evaluates your decision.
 
-* **Create File**: In your `my-apps/step1` folder, create a new file named `decision.js` (or something specific like `workout-logic.js`).
+* **Create File**: In your `my-app/step1` folder, create a new file named `decision.js` (or something specific like `workout-logic.js`).
 * **Code & Test**:
     * **The Goal**: Create and export a function that takes your **form data** as input and returns a **result object**.
     * **The "Pure Function" Rule**: This function **must not** touch the DOM. No `document.getElementById`, no updating HTML. It strictly takes data in and sends data out.
