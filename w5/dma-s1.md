@@ -1,6 +1,6 @@
 #  DMA - Decision Making App Step 1
 ## JavaScript Implementation
-The carbon footprint will be your guide to implement the following, make sure you do the steps order of the instructions and commits.
+The carbon footprint will be your guide to implement the following, make sure you do the steps in order of the instructions and commits.
 
 ### `app.js` Setup
 * **Create File**: In your `my-apps/step1` folder, create a new file named `app.js`.
