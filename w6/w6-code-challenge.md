@@ -1,7 +1,7 @@
 # Week 6 Checkpoint: The Order History Table
 
 **Objective:**
-Upgrade the UI from a simple summary to a full **Order History Table**. You will implement a module to render rows dynamically and use **Event Delegation** to handle deleting items.
+Upgrade the UI from a simple summary to a full **Order History Table**. You will implement a module to render rows dynamically using the looping technique you learned in the lecture.
 
 **Scenario:**
 The manager is happy that the data is saved, but they have a request: *"I can only see the last order! I need to see a list of ALL orders placed today."*
