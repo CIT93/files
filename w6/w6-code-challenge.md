@@ -56,7 +56,7 @@ Create a new file named `order-list.js`. This matches the `renderTable` concept 
         * Size
         * Total Price
     * **Append:** Add the new row to the `tbody`.
-
+**Commit message:** `Step 2 Complete`
 ---
 
 ### Step 3: Update `app.js` (Render the List)
@@ -78,7 +78,7 @@ Open `app.js`. We need to switch from showing just one result to showing the who
 
 3.  **Update `handleOrderSubmit` (Update on New Order):**
     * Inside your submit handler, immediately after you save the new order, call `orderList.renderOrders(orders)` to refresh the table.
-
+**Commit message:** `Step 3 Complete`
 ---
 
 ### Step 4: Verify It Works
@@ -103,3 +103,5 @@ The manager wants a way to reset the list at the beginning of a new day.
         1.  Clear the `orders` array (e.g., `orders.length = 0`).
         2.  Clear Local Storage (e.g., `localStorage.removeItem(...)` or save the empty array).
         3.  Update the UI: Call `orderList.renderOrders(orders)` to show the empty table.
+
+**Commit message:** `Step 5 Complete`
