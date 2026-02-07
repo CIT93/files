@@ -1,14 +1,15 @@
-# Week 6 Checkpoint: Order History & Deletion
+# Week 6 Checkpoint: The Order History Table
 
 **Objective:**
 Upgrade the UI from a simple summary to a full **Order History Table**. You will implement a module to render rows dynamically and use **Event Delegation** to handle deleting items.
 
 **Scenario:**
-The manager loves that the data is saved, but they have a new request: *"I can only see the last order! I need to see a list of ALL orders placed today. Also, sometimes I make a mistake, so I need a delete button."*
+The manager is happy that the data is saved, but they have a request: *"I can only see the last order! I need to see a list of ALL orders placed today."*
 
 **Your Mission:**
-1.  Replace your "Single Result Display" with a **Table** that lists every order in the array.
-2.  Add a **Delete Button** to each row to remove unwanted orders.
+1.  Update your HTML to include a Table structure.
+2.  Create a module (`order-list.js`) that loops through your array and creates a table row for every order.
+3.  Update `app.js` to render this table every time the app starts or a new order is placed.
 
 ---
 ### Step 1: Setup and Update HTML (The Table Skeleton)
