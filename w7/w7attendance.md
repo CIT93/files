@@ -16,11 +16,6 @@ Your decision logic cannot just ignore data. If your form asks for it, your code
 ### 3. The Return Object: Decision + Factors (Flat Structure)
 Update your main exported function to return a single, flat object. It should not just tell us the *answer* (the decision); it should include the *key data points* (factors) that led to that decision.
 
-**Required Return Structure:**
-Do not nest your factors inside a separate object. Return them as top-level properties.
-1.  `decision`: The main result (string).
-2.  `...factors`: The specific scores, categories, or inputs that influenced the result.
-
 **Example Code:**
 > **Note:** The example below follows **Pattern B: The Advisor** (Logic-based). It evaluates specific conditions to determine a category.
 > * If you chose **Pattern A (The Scorer)**, your helper function might calculate a number (e.g., `calculateRiskScore`).
@@ -71,3 +66,5 @@ export function determineProjectAction(inputs) {
 * Open app.js and locate your handleFormSubmit.
 * console.log the result of your decision function.
 * Test: Submit your form.
+
+* **Commit with message**: helper functions for decision making
