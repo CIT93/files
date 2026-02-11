@@ -4,7 +4,7 @@
 In Step 2, we will make the app "real" by saving data to LocalStorage and rendering a history of your decisions. We have structured this so you can **test** your progress after every single step.
 
 ## Setup
-* **Create Folder**: Inside your `my-apps` folder, create a new folder named `step2`.
+* **Create Folder**: Inside your `my-app` folder, create a new folder named `step2`.
 * **Copy Files**: Copy **all** files from your `step1` folder and paste them into your new `step2` folder.
 * **Work Here**: Close any open files from step 1 and open the files in `step2` to begin working.
 * **Commit with message**: `setup step2 done`
