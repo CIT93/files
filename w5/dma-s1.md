@@ -24,11 +24,9 @@ The carbon footprint will be your guide to implement the following, make sure yo
 Feeling the burn? If you have completed everything above, you may pause here.
 
 ### To take the break:
-- Submit the **URL to your commit history**
-- Make sure the previous commit is visible and pushed to github
-- Add a submission comment saying:
-
-> Taking the break, will finish by Thursday Morning!
+- Submit the **Commit History URL** to Canvas. (Note: Missing this step results in a -10 point **deduction**).
+- Push to GitHub. Make sure your previous commit is visible.
+- Add a Submission Comment: "Taking the break, will finish by Thursday Morning!"
 
 *(If you are not taking the break, continue below.)*
 
@@ -92,5 +90,3 @@ In the Carbon Footprint app, we had `calculator.js`—a specific file dedicated 
     * Store the returned object in a variable.
     * `console.log` the returned object to verify your logic works.
 * **Commit with message**: `return decision object`
-
-

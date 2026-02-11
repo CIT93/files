@@ -32,19 +32,8 @@ In Step 2, we will make the app "real" by saving data to LocalStorage and render
 
 ---
 
-## 2. Refactor: `decision.js`
-**Goal**: Improve your code quality by separating "calculation" from "execution."
-* **Open `decision.js`**:
-    * Create a **non-exported** helper function (e.g., `calculateScore` or `formatText`) that handles one specific part of your logic.
-    * Call this helper inside your main exported function.
-* **Test**:
-    1. Run your app and submit a form.
-    2. **Success**: The console should show the correct decision result (proving you didn't break the logic).
-* **Commit with message**: `decision logic refactored`
 
----
-
-## 3. UI Module: `ui.js` (Immediate Feedback)
+## 2. UI Module: `ui.js` (Immediate Feedback)
 **Goal**: Standardize how we show the *current* decision result (the text above the form).
 * **Create/Rename**:
     * If you have `results-display.js`, rename it to `ui.js`.
@@ -62,7 +51,7 @@ In Step 2, we will make the app "real" by saving data to LocalStorage and render
 
 ---
 
-## 4. HTML Update: The Table
+## 3. HTML Update: The Table
 **Goal**: Create the skeleton for our history list.
 * **Open `index.html`**:
     * Below your "Decision Result" section, add a `<table>`.
@@ -75,8 +64,13 @@ In Step 2, we will make the app "real" by saving data to LocalStorage and render
 * **Commit with message**: `table html added`
 
 ---
+### To take the break:
+- Submit the **Commit History URL** to Canvas. (Note: Missing this step results in a -10 point **deduction**).
+- Push to GitHub. Make sure your previous commit is visible.
+- Add a Submission Comment: "Taking the break, will finish by Thursday Morning!"
+---
 
-## 5. Data Store Module: `data-store.js`
+## 4. Data Store Module: `data-store.js`
 **Goal**: Save data to the browser so it survives a refresh.
 * **Create File**: Create `data-store.js` in your `step2` folder.
 * **Code (`data-store.js`)**:
@@ -96,7 +90,7 @@ In Step 2, we will make the app "real" by saving data to LocalStorage and render
 
 ---
 
-## 6. Table Render Module: `table-render.js`
+## 5. Table Render Module: `table-render.js`
 **Goal**: specific module to render the table rows and buttons.
 * **Create File**: Create `table-render.js`.
 * **Code (`table-render.js`)**:
