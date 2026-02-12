@@ -58,6 +58,8 @@ In Step 2, we will make the app "real" by saving data to LocalStorage and render
     * Add a `<thead>` with `<tr>` and `<th>` elements matching your data (e.g., `<th>Date</th>`, `<th>Score</th>`).
     * **Crucial**: Add a final header `<th>Actions</th>`.
     * Add an empty `<tbody>` with an `id` (e.g., `id="history-list"`).
+    * Reference 6.1 Code Along for CSS that also needs to be added and updated the table for your selected color pallete. 
+        - Link reference - https://github.com/CIT93/files/blob/main/w6/w6-1.md
 * **Test**:
     1. View your page.
     2. **Success**: You should see the table headers (but no data rows yet).
