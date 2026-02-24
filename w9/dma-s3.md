@@ -4,7 +4,7 @@
 In Step 3, we are going to add the ability to delete entries from your history. To do this properly, we will use **Event Delegation** and a **Callback Architecture** so your table module can communicate with your main application logic.
 
 ## Setup
-* **Create Folder**: Inside your `my-apps` folder, create a new folder named `step3`.
+* **Create Folder**: Inside your `my-app` folder, create a new folder named `step3`.
 * **Copy Files**: Copy **all** files from your `step2` folder and paste them into your new `step3` folder.
 * **Work Here**: Close any open files from step 2 and open the files in `step3` to begin working.
 
