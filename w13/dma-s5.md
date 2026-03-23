@@ -45,7 +45,7 @@ In Step 6, we will focus on **Form Validation**—ensuring the user cannot submi
 
 **Do not code the validation yet.** * Open your `README.md` file.
 * Add a new section titled `## Step 6 Planning: Validation`.
-* For **each** input in your form (including your new custom one), answer the following three questions:
+* For **each** input in your form (including at least 2 custom one), answer the following three questions:
     1. **What is the "Required" state?** (e.g., Is it mandatory? Must a checkbox be checked?)
     2. **What are the "Boundary" rules?** (e.g., If it's a number, what is the min/max? If it's text, is there a minimum length?)
     3. **The Error Message:** Write out the exact, user-friendly sentence you want the user to see if they fail that specific validation.
