@@ -33,7 +33,7 @@ It is time to execute the plan you wrote in your Step 4 README. You are adding a
 2. **Data Capture:** Update your form handler to capture this new value. Ensure it is being saved into your data object alongside your other inputs.
 3. **Update the Engine (`decision.js`):** Modify your logic to factor in this new data. 
    * *Requirement:* This input cannot be "just for show." It **must** influence the final recommendation or score returned by your app.
-4. **Update the UI:** Ensure this new value is rendered in your immediate results and appears as a new column in your history table.
+4. **Update the UI:** Ensure this new value is rendered in your immediate results and appears as a new column in your history table. Remember to test the edit and delete functionality as well.  
 
 *Test: Submit several entries. Verify that the new input is changing the results as expected and appearing correctly in the table.*
 * **Commit with message**: `custom input and decision logic implemented`
