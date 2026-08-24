@@ -71,7 +71,7 @@ Before building the full app, let's make sure your module works and finds the el
 
 1.  **Connect the file:** Open `app.js` and add this single line at the very top so the browser loads your new file:
     ```javascript
-   import * as orderForm from "./order-handler.js";
+   import * as orderForm from `"./order-handler.js"`';
     ```
 
 2.  **Add a test log:** In the `order-handler.js` add this temporary line at the very bottom of the file:
