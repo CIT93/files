@@ -10,7 +10,7 @@ The store manager is happy with the form, but they have two new requests:
 
 ---
 ### Step 1: Setup
-Create a new folder in your public repo named `w4` copy the ending code from `w3`. Update the title to be `The Custom Order Form` 
+Create a new folder in your public repo named `w4` copy the ending code from `w3`. Update the title to be `The Order History` 
 
 **Commit message:** `Step 1 Complete`
 
@@ -60,11 +60,11 @@ Open your `app.js`. We need to change how we handle the "Submit" event.
 
 ---
 
-### Step 4: Implement the Display Module (`results-display.js`)
+### Step 4: Implement the Display Module (`results-display.js`) Optional (or earn a late pass)
 We need to separate our DOM updates from our main logic, just like we did in the Carbon Footprint app.
 
 **1. Update your HTML (The Output Area)**
-Replace your old `<div id="order-summary">...</div>` at the bottom of `index.html` with this new version. Notice that it starts hidden (`display: none`) and has specific `<span>` tags with IDs so we can inject our data directly into them. Write logic in the `result-display.js` to display Yes or No based on if the user selected Gift Wrap. How would we do this with the data based into the data `newOrder` that is passed into the module?
+Replace your old `<div id="order-summary">...</div>` at the bottom of `index.html` with this new version. Notice that it starts hidden (`display: none`) and has specific `<span>` tags with IDs so we can inject our data directly into them.
 
 ```html
 <div id="order-summary" style="display: none;">
