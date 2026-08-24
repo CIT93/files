@@ -107,6 +107,8 @@ Open your `app.js`. Clear out the old Week 2 code.
     * **Stop the reload:** Call `event.preventDefault()`.
     * **Get Data:** Call `orderHandler.getOrderInputs()` to get the data object.
     * **Update the Page:** Update the `textContent` of the summary div to show the order details (e.g., *"Ordered 5 Large T-Shirts"*).
+        * **Make sure to write the logic so that the text "gift wrapped" only displays on the page if the user actually selected that option in the form.** 
+            * Note: Missing this step will result in a 15-point deduction from your Functionality score.
 
 4.  **The Init Function:**
     * Create a function named `init`.
