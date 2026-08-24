@@ -60,7 +60,7 @@ Open your `app.js`. We need to change how we handle the "Submit" event.
 
 ---
 
-### Step 4: Implement the Display Module (`results-display.js`) Optional (or earn a late pass)
+### Step 4: Implement the Display Module (`results-display.js`)
 We need to separate our DOM updates from our main logic, just like we did in the Carbon Footprint app.
 
 **1. Update your HTML (The Output Area)**
