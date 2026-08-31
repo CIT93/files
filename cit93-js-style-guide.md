@@ -70,13 +70,3 @@ Based on our Week 4 codebase, please adhere to the following conventions for all
 ## 6. Commenting and Documentation
 
 * **Inline Comments:** Use `//` for brief explanations of complex logic, step-by-step descriptions, or clarifications on specific method choices.
-* **JSDoc-Style Function Signatures:** Above every utility or calculation function, include a brief description of the function's purpose followed by `@param` and `@returns` tags to denote expected data types.
-  ```javascript
-  // Calculates points for Home Size based on WikiHow Method 1
-  // @param {number} homeSquareFootage - Square footage of the home.
-  // @param {boolean} isApartment - True if dwelling is an apartment.
-  // @returns {number} Points for home size.
-  const calculateHomeSizePoints = function (homeSquareFootage, isApartment) {
-      // ...
-  };
-  ```
