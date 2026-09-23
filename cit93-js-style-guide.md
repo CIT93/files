@@ -2,6 +2,8 @@
 
 Welcome to the JavaScript code style guide. Consistent coding styles make projects easier to read, debug, and maintain—especially when navigating your assignments in VS Code or GitHub Codespaces. 
 
+**🚨 IMPORTANT:** The goal is to demonstrate your understanding of the current material. Note: Using JavaScript we haven't covered yet will be flagged as AI-generated code and points will be deducted. If you are ever unsure whether a specific method or syntax is allowed, please reach out so we can discuss it before you submit!
+
 Based on our Week 6 codebase, please adhere to the following conventions for all future JavaScript modules.
 
 ## 1. Variable Declarations
@@ -50,6 +52,7 @@ Based on our Week 6 codebase, please adhere to the following conventions for all
       default: return 0;
   }
   ```
+* **No Ternary Operators:** Do not use ternary operators (condition ? true : false) for control flow. Stick strictly to the standard if/else or switch statements until they are formally covered in the course.
 
 ## 4. Modern JavaScript Features (ES6+)
 
@@ -102,6 +105,8 @@ Based on our Week 6 codebase, please adhere to the following conventions for all
   ```
 
 ## 7. Commenting and Documentation
+
+* **Code Formatting:** Format your code to make it readable. Consistently indent your code, use proper spacing around operators, and add blank lines to separate logical blocks. Clean formatting is a required professional habit.
 
 * **Inline Comments:** Use `//` for brief explanations of complex logic, step-by-step descriptions, or clarifications on specific method choices.
 
