@@ -36,7 +36,9 @@ Based on our Week 6 codebase, please adhere to the following conventions for all
   };
   ```
 
-## 3. Control Structures
+## 3. Control Structures & Comparisons
+
+* **Strict Equality (`===`):** Always use strict equality (`===`) and strict inequality (`!==`) when comparing values. Do not use loose equality (`==` or `!=`), as it allows JavaScript to perform automatic type coercion, which can lead to unpredictable bugs.
 
 * **Single-Statement `if/else` Blocks:** For brief, single-statement `if`, `else if`, or `else` conditions, you may omit the curly brace block delimiters to keep the code concise. Keep these on a single line.
   ```javascript
