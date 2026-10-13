@@ -87,7 +87,8 @@ Based on our Week 6 codebase, please adhere to the following conventions for all
   const carbonFootprintForm = document.getElementById('carbonFootprintForm');
   const householdMembersInput = carbonFootprintForm.querySelector('#householdMembers');
   ```
-* **Dynamic Elements:** Use `document.createElement()` to generate new HTML elements using JavaScript, and `appendChild()` to add them as children of another element in the DOM. Use `innerHTML` combined with template literals to quickly build the internal structure of newly created elements. 
+* **Dynamic Elements (Helper Pattern):** When generating complex dynamic content (like table rows), encapsulate the creation logic inside a dedicated helper function. Use `document.createElement()` to build the outer container element, populate its contents using `innerHTML` and template literals, and then `return` the fully constructed element. 
+* **Appending to DOM:** In your main rendering function or loop, call your element-creation helper and use `appendChild()` to add the returned elements to the page.
 * **Data Attributes:** Use the `.dataset` property to attach and read custom `data-*` attributes directly on HTML elements.
   ```javascript
   row.dataset.id = entry.id;
