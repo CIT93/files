@@ -42,6 +42,11 @@ Based on our Week 9 codebase, please adhere to the following conventions for all
       event.preventDefault();
       // ...
   };
+  // Good: Always include () even when empty
+  const init = () => {
+      console.log('App initialized');
+  };
+  ```
   ```
 
 ## 3. Control Structures & Comparisons
