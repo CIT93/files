@@ -27,10 +27,18 @@ Based on our Week 9 codebase, please adhere to the following conventions for all
 
 ## 2. Function Syntax
 
-- **Function Expressions:** Define functions as expressions and assign them to `const` variables rather than using standard function declarations. This prevents hoisting issues and keeps your code execution predictable.
+- **Function Expressions (Weeks 1-12):** Define functions as expressions and assign them to `const` variables rather than using standard function declarations. This prevents hoisting issues and keeps your code execution predictable.
   ```javascript
-  // Good
+  // Good (Required before Week 13)
   const handleFormSubmit = function(event) {
+      event.preventDefault();
+      // ...
+  };
+  ```
+- **Arrow Functions (Week 13+):** Starting in Week 13, you may write arrow functions. If you are working on assignments from previous weeks, you must stick with the standard function expression syntax shown above.
+  ```javascript
+  // Good (Allowed Week 13 and beyond)
+  const handleFormSubmit = (event) => {
       event.preventDefault();
       // ...
   };
