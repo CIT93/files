@@ -52,6 +52,15 @@ Based on our Week 9 codebase, please adhere to the following conventions for all
 ## 3. Control Structures & Comparisons
 
 - **Strict Equality (`===`):** Always use strict equality (`===`) and strict inequality (`!==`) when comparing values. Do not use loose equality (`==` or `!=`), as it allows JavaScript to perform automatic type coercion, which can lead to unpredictable bugs.
+- **No Uncovered String Methods:** Do not use string manipulation methods we haven't covered yet—such as `.toLowerCase()`, `.toUpperCase()`, `.trim()`, or regular expressions—to sanitize user inputs. Using methods before they are introduced in the curriculum will be flagged.
+- **Handling Free-Text String Comparisons:** If your decision logic compares a text input value, use standard logical operators (`||` or `&&`) with strict equality (`===`) to check explicit, acceptable variations:
+  ```javascript
+  // Good: Checking explicit casing using strict equality and logical OR
+  const isLocalCity = formInputs.jobLocation === 'Fresno' || formInputs.jobLocation === 'fresno';
+
+  if (formInputs.workType === 'onsite' && !isLocalCity) {
+      // commute suggestion logic
+  }
 - **Single-Statement `if/else` Blocks:** For brief, single-statement `if`, `else if`, or `else` conditions, you may omit the curly brace block delimiters to keep the code concise. Keep these on a single line.
   ```javascript
   // Good
